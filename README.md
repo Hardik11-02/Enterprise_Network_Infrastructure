@@ -1,14 +1,15 @@
 # Enterprise_Network_Infrastructure
+## The screenshots of the project are in screenshot folder.
 
-Project Overview
+##Project Overview
 
 This project demonstrates the design, implementation, configuration, and verification of a small enterprise network using Cisco Packet Tracer. The network was developed using industry-standard networking concepts and CCNA-level best practices to ensure secure, scalable, and efficient communication between multiple departments. The primary objective was to implement VLAN-based network segmentation, dynamic routing, automatic IP address allocation, and network security policies while maintaining reliable connectivity across all network segments.
 
-Network Architecture
+##Network Architecture
 
 The network consists of two interconnected Cisco routers connected through a WAN serial link. Multiple LAN segments are connected through Cisco switches and organized using VLANs to separate departmental traffic. Dynamic routing was implemented using OSPF to enable automatic route exchange between routers. DHCP services were configured to automatically assign IP addresses to client devices, while Access Control Lists (ACLs) were used to control and restrict communication between selected networks.
 
-Technologies Implemented:
+##Technologies Implemented:
 
 -IPv4 Addressing and Subnetting
 -VLAN Configuration and Segmentation
@@ -22,19 +23,19 @@ Technologies Implemented:
 
 Multiple VLANs were created to logically separate departmental networks and reduce broadcast traffic. Switch ports were assigned to their respective VLANs to ensure proper network isolation and improve security.
 
-DHCP Configuration
+##DHCP Configuration
 
 DHCP services were configured to automatically provide IP addresses, subnet masks, and default gateways to client devices. This reduced manual configuration efforts and simplified network management.
 
-OSPF Dynamic Routing
+##OSPF Dynamic Routing
 
 OSPF Process ID 1 was configured to dynamically exchange routing information between routers. Neighbor relationships were established successfully, allowing all networks to learn remote routes automatically.
 
-Access Control Lists (ACLs)
+##Access Control Lists (ACLs)
 
 Extended ACLs were implemented to enforce security policies and control traffic flow between selected network segments. Connectivity testing was performed to verify proper ACL operation.
 
-Verification and Testing
+##Verification and Testing
 
 The network was thoroughly tested to verify successful implementation of all configured services. Verification activities included:
 
@@ -45,7 +46,7 @@ Routing table verification
 ACL functionality testing
 End-to-end connectivity testing
 
-Several Cisco IOS commands were used during verification and troubleshooting, including:
+##Several Cisco IOS commands were used during verification and troubleshooting, including:
 
 show ip interface brief
 show vlan brief
@@ -66,6 +67,6 @@ Network Security using ACLs
 Network Verification Techniques
 Cisco IOS Troubleshooting Methodologies
 
-Conclusion
+##Conclusion
 
 The project successfully demonstrates the implementation of a secure and scalable enterprise network using Cisco technologies. By integrating VLAN segmentation, DHCP services, OSPF dynamic routing, and ACL-based security controls, the network provides reliable communication, efficient resource management, and enhanced security while following industry networking standards and best practices.
